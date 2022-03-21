@@ -32,8 +32,8 @@ session_start();
             <div class="col-12 col-lg-12">
                 <div class="row align-items-center h-100">
                     <div class="mx-auto col-lg-6 col-md-8 col-sm-6">
-                        <div class="shadow-lg bg-white">
-                            <div class="form-header">
+                        <div class="shadow-lg bg-white" style="border-radius: 0.5rem !important;">
+                            <div class="form-header" style="border-radius: 0.5rem !important;">
                                 <div>
                                     <div class="text-center p-3">
                                         <h2 class="theme-color ">Login</h2>

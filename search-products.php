@@ -28,23 +28,17 @@ session_start();
         <a class="navbar-brand my-0 mr-md-auto" href="dashboard.php">
             <img src="images/logo.svg" alt="logo" width="30" height="30" alt="Logo" loading="lazy">
         </a>
-        
         <button class="btn btn-outline logout-btn" id="btn" onclick="location.href='user-logout.php'">Logout</button>
       </div>
-
       <div class="container h-100">
         <div class="row align-items-center h-100" >
-            
           <div class="col-lg-8 col-sm-12 mx-auto">
-
                 <div class="mt-4">
-                    <div class="text-center p-3">
-                        <h3 class="theme-color">Search</h3>
-                    </div>
-                </div>
-
-                
-                  <form action="search-products-action.php" method="get">
+                  <div class="text-center p-3">
+                      <h3 class="theme-color">Search</h3>
+                  </div>
+                </div>                
+                <form action="search-products-action.php" method="get">
                   <div class="input-group md-form form-md form-2 pl-0">
                     <input class="form-control my-0 py-1" name="query" type="text" placeholder="Enter Product ID or Name" aria-label="Search">
                     <div class="input-group-append">
@@ -54,8 +48,8 @@ session_start();
                       </span>
                       </button>
                     </div>
-                    </div>
-                  </form>
+                  </div>
+                </form>
           </div>
         </div>
           
