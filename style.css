@@ -1,0 +1,167 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+html,body{
+    background-color: #6795c8;
+}
+
+#navv{
+    background-color: #6795c8 !important;
+}
+
+.theme-color{
+    color: #036564;
+}
+
+.theme-btn{
+    color: #017a9b;
+    background-color: #036564;
+}
+
+.login-header{
+    color: #017a9b;
+    font-weight: 600;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: #017a9c !important;
+}
+
+.login-btn{
+ background-color: #017a9b;
+ color: white;
+}
+.login-btn:hover{
+ color: white;
+}
+
+/* Dashboard */
+
+.logout-btn{
+ color: #017a9b;
+ border: 1px solid #017a9b;
+}
+
+.logout-btn:hover{
+    color: white;
+    border: 1px solid #017a9b;
+    background-color: #017a9b;
+}
+
+.action-btn{
+    background-color: #017a9b;
+    color: white;
+}
+
+.action-btn:hover{
+    background-color: #4da2b9;
+    color: white;
+}
+
+.fa-plus-square{
+    color: white;
+}
+
+/* Add Products */
+
+.form-header{
+    background-color: #F7F7F7;
+    color: #017a9b;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+/* Search Page */
+
+.search-icon{
+    color: white;
+}
+
+.search-btn{
+    background-color: #017a9b;
+}
+
+h1,h2,h3{
+    font-weight: 700;
+}
+
+table,thead,tbody,th,td,tr{
+    font-size: 1rem !important;
+    /*font-weight: 600 !important;*/
+}
+
+/* Sell Product */
+select:invalid { 
+    color: gray; 
+}
+
+.team-menbers{
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 1rem;
+    background: rgba( 0, 160, 176, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 2rem auto !important;
+}
+
+a {
+  text-decoration:none;
+  border-bottom: 2px solid #036564;
+  box-shadow: inset 0 -4px 0 #036564;
+  color: inherit;
+  transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+  transform: scale(1.0);
+}
+
+a:hover {
+  background: #036564;
+  color: #017a9b;
+}
+
+#admin{
+    border-radius: 1rem;
+}
+
+@media (min-width: 340px){
+    #navv{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    #btn{
+        margin-left: calc(70%);
+    }
+    #pad{
+        padding-top: 0.3rem;
+        font-size: 18px !important;
+    }
+    #padd{
+        padding-top: 2rem !important;
+    }
+    #test{
+        padding: 5rem;
+    }
+    .team-menbers{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px){
+    th,td,tr{
+        font-size: 12px !important;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:  760px){
+    #test{
+        padding: 5rem;
+    }   
+}
+
