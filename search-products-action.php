@@ -23,7 +23,7 @@ session_start();
           header("Location: index.php ");
         }
       ?>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm" id="navv">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom" id="navv">
         <a class="navbar-brand my-0 mr-md-auto" href="dashboard.php">
             <img src="images/logo.svg" alt="logo" width="30" height="30" alt="Logo" loading="lazy">
         </a>
@@ -72,7 +72,7 @@ session_start();
             }
             if(mysqli_num_rows($ret)==0)
             {
-                      echo "<h3 class='text-center'>No such Products are thier....</h3><div class='col'><form action='dashboard.php'><button type='submit' class='btn action-btn btn-block mt-4'>Done</button></form></div>";
+                      echo "<h3 class='text-center'>No such Products are there....</h3><div class='col'><form action='dashboard.php'><button type='submit' class='btn action-btn btn-block mt-4'>Done</button></form></div>";
 		
             }?>
                 

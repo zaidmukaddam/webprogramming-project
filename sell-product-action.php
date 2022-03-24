@@ -23,8 +23,8 @@ session_start();
           echo "login";
           header("Location: index.php ");
         }
-      ?>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm" id="navv">
+    ?>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom" id="navv">
         <a class="navbar-brand my-0 mr-md-auto" href="dashboard.php">
             <img src="images/logo.svg" alt="logo" width="30" height="30" alt="Logo" loading="lazy">
         </a>
@@ -67,8 +67,6 @@ session_start();
 		
 		$productid = filter_input(INPUT_GET,'productid');
 		$sellqty = filter_input(INPUT_GET,'sellqty');
-
-		
 		
 		
 		$sql="SELECT * FROM available_products_table WHERE product_id='$productid' AND quantity>='$sellqty'";

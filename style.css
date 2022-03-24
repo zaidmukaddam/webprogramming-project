@@ -3,15 +3,17 @@
 }
 
 html,body{
-    background-color: #6795c8;
-}
-
-#navv{
-    background-color: #6795c8 !important;
+   background: url(images/bg.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  padding: 0px 10px;
 }
 
 .theme-color{
-    color: #036564;
+    color: #005f6b;
 }
 
 .theme-btn{

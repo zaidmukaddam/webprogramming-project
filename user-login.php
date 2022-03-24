@@ -17,7 +17,7 @@ session_start();
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm" id="navv"id="navv">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom" id="navv"id="navv">
         <a class="navbar-brand my-0 mr-md-auto" href="dashboard.php">
             <img src="images/logo.svg" alt="logo" width="30" height="30" alt="Logo" loading="lazy">
         </a>
@@ -28,15 +28,14 @@ session_start();
       
     <div class="container h-100">
         <div class="row">
-
             <div class="col-12 col-lg-12">
                 <div class="row align-items-center h-100">
                     <div class="mx-auto col-lg-6 col-md-8 col-sm-6">
-                        <div class="shadow-lg bg-white" style="border-radius: 0.5rem !important;">
+                        <div class="shadow-lg" style="border-radius: 0.5rem !important; background-color: #005f6b;">
                             <div class="form-header" style="border-radius: 0.5rem !important;">
                                 <div>
-                                    <div class="text-center p-3">
-                                        <h2 class="theme-color ">Login</h2>
+                                    <div class="text-center p-3" style="background-color: #008c9e; border-radius: 0.5rem !important;">
+                                        <h2 class="theme-color">Login</h2>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +49,7 @@ session_start();
                                 <label for="loginPassword">Password</label>
                                 <input type="password" name="password" class="form-control" id="loginPassword">
                                 </div>
-                                <button type="submit" class="btn login-btn btn-block mb-3">Login</button>
+                                <button type="submit" class="btn login-btn btn-block col-12">Login</button>
                             </form>
                         </div>
                     </div>
