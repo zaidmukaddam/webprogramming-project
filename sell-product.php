@@ -38,8 +38,8 @@ session_start();
                         
           <div class="col-lg-8 col-sm-12 mx-auto" id="padd">
 
-                <div class="shadow-lg bg-white mt-4" id="admin">
-                    <div class="col form-header text-center p-2">
+                <div class="shadow-lg bg mt-4" id="admin">
+                    <div class="col form-header text-center p-2 bg bg-jum">
                     Sell Products
                     </div>
                     <form action="sell-product-action.php" method="get">

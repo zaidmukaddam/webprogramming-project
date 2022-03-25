@@ -51,7 +51,7 @@ session_start();
                 <div class="mt-4">
                     <div class="text-center p-2">
                         <h1 class="theme-color">Library Management System</h1>
-                        <h5>Web Programming Mini Project</h5>
+                        <h5 class="white">Web Programming Mini Project</h5>
                     </div>
                 </div>
             </div>
@@ -67,12 +67,14 @@ session_start();
             <div class="m-auto team-menbers">
                 <div class="center ">
                     <img src="images/prabjhot.png" class="rounded-circle" width="120" height="120">
-                    <h6 class="m-1">Prabhjot Singh Saini</h6>
+                    <h6 class="m-1 white">Prabhjot Singh Saini</h6>
+                    <h6 class="m-1 white">Roll No 49</h6>
                     <a href="#" class="theme-color">prabhjotsingh.com</a>
                 </div>
                 <div class="center">
                     <img src="images/zaid.png" class="rounded-circle" width="120" height="120">
-                    <h6 class="m-1">Zaid Mukaddam</h6>
+                    <h6 class="m-1 white">Zaid Mukaddam</h6>
+                    <h6 class="m-1 white">Roll No 39</h6>
                     <a href="https://zaidmukaddam.biz" class="theme-color">zaidmukaddam.biz</a>
                 </div>
             </div>

@@ -39,8 +39,8 @@ session_start();
             
           <div class="col-lg-8 col-sm-12 mx-auto">
 
-                <div class="shadow-lg bg-white mt-4" id="admin">
-                    <div class="col form-header text-center p-3">
+                <div class="shadow-lg bg mt-4" id="admin">
+                    <div class="col form-header text-center p-3 bg-jum">
                         Add New Admin
                     </div>
                     <form action="add-admin-action.php" method="get">

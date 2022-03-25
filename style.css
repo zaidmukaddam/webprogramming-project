@@ -13,12 +13,17 @@ html,body{
 }
 
 .theme-color{
-    color: #005f6b;
+    color: #00a0b0;
 }
 
 .theme-btn{
     color: #017a9b;
     background-color: #036564;
+}
+
+.white{
+    color: azure;
+    text-shadow: 3px 5px 4px rgba(150, 150, 135, 0.51);
 }
 
 .login-header{
@@ -36,6 +41,7 @@ html,body{
  background-color: #017a9b;
  color: white;
 }
+
 .login-btn:hover{
  color: white;
 }
@@ -92,12 +98,27 @@ h1,h2,h3{
 
 table,thead,tbody,th,td,tr{
     font-size: 1rem !important;
+    color: #1ddd9e;
     /*font-weight: 600 !important;*/
 }
+
+input,select,option{
+    background-color: #c7dfec !important;
+    color: #128a63 !important;
+}
+
 
 /* Sell Product */
 select:invalid { 
     color: gray; 
+}
+
+.bg{
+   background-color:  #ffefd3 !important; 
+}
+
+.bg-jum{
+    background-color: #e0e3d9 !important;
 }
 
 .team-menbers{
@@ -115,16 +136,16 @@ select:invalid {
 
 a {
   text-decoration:none;
-  border-bottom: 2px solid #036564;
-  box-shadow: inset 0 -4px 0 #036564;
+  border-bottom: 2px solid #128a63;
+  box-shadow: inset 0 -4px 0 #128a63;
   color: inherit;
   transition: background 0.1s cubic-bezier(.33,.66,.66,1);
   transform: scale(1.0);
 }
 
 a:hover {
-  background: #036564;
-  color: #017a9b;
+  background: #128a63;
+  color: #57e0c2;
 }
 
 #admin{

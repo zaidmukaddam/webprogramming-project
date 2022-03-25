@@ -31,10 +31,10 @@ session_start();
             <div class="col-12 col-lg-12">
                 <div class="row align-items-center h-100">
                     <div class="mx-auto col-lg-6 col-md-8 col-sm-6">
-                        <div class="shadow-lg" style="border-radius: 0.5rem !important; background-color: #005f6b;">
+                        <div class="shadow-lg" style="border-radius: 0.5rem !important; background-color: #57e0c2;">
                             <div class="form-header" style="border-radius: 0.5rem !important;">
                                 <div>
-                                    <div class="text-center p-3" style="background-color: #008c9e; border-radius: 0.5rem !important;">
+                                    <div class="text-center p-3" style="background-color: #6fd5a1; border-radius: 0.5rem !important;">
                                         <h2 class="theme-color">Login</h2>
                                     </div>
                                 </div>
@@ -42,12 +42,12 @@ session_start();
 
                             <form action="user-login-action.php" class="mb-3 p-3" method="get">
                                 <div class="form-group">
-                                <label for="loginUsername">Username</label>
-                                <input autofocus type="text" name="username" class="form-control" id="loginUsername" aria-describedby="emailHelp">
+                                    <label for="loginUsername">Username</label>
+                                    <input autofocus type="text" name="username" class="form-control" id="loginUsername" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group pb-2">
-                                <label for="loginPassword">Password</label>
-                                <input type="password" name="password" class="form-control" id="loginPassword">
+                                    <label for="loginPassword">Password</label>
+                                    <input type="password" name="password" class="form-control" id="loginPassword">
                                 </div>
                                 <button type="submit" class="btn login-btn btn-block col-12">Login</button>
                             </form>

@@ -15,6 +15,7 @@ session_start();
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="vender/css/all.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <body>
 <?php
@@ -38,8 +39,8 @@ session_start();
             
           <div class="col-lg-8 col-sm-12 mx-auto" id="padd">
 
-                <div class="shadow-lg bg-white mt-4" id="admin">
-                    <div class="col form-header text-center p-3">
+                <div class="shadow-lg bg mt-4" id="admin">
+                    <div class="col form-header text-center p-3 bg-jum">
                         Add Products
                     </div>
                     <form action="add-product-action.php" method="get">
